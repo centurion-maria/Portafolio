@@ -44,12 +44,27 @@ html {
 	height: -webkit-fill-available;
 }
 
-.bienvenida {
-	display: flex;
+.contenedor {
+	padding: 20px;
 }
 .bienvenida-texto {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 52px;
 	line-height: 61px;
+	padding-top: 70px;
+}
+
+.foto-dev {
+	width: 50%;
+}
+
+.skills-parent {
+	display: flex;
+	flex-direction: row;
+}
+
+.skills-child {
+	display: flex;
+	flex-direction: column;
 }
