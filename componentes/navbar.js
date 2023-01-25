@@ -13,10 +13,9 @@ class MyHeader extends HTMLElement{
                 <ul class="navbar__nav">
                   <li class="navbar__link after-transform"><a class="menu_link" href="#sobre-mi">Sobre mi</a></li>
                   <li class="navbar__link after-transform"><a class="menu_link" href="#skills">Skills</a></li>
-                  <li class="navbar__link after-transform"><a class="menu_link" href="#hobbies">Hobbies</a></li>
                   <li class="navbar__link after-transform"><a class="menu_link" href="#formacion">Formación</a></li>
                   <li class="navbar__link after-transform"><a class="menu_link" href="#proyectos">Proyectos</a></li>
-                  <li class="navbar__link after-transform"><a class="menu_link" href="mailto:centurionmalena94@gmail.com">centurionmalena94@gmail.com</a></li>
+                  <li class="navbar__link after-transform"><a class="menu_link" href="#contactame">Contactame</a></li>
                 </ul>
               </nav>
             </div>
@@ -25,9 +24,9 @@ class MyHeader extends HTMLElement{
             <ul class="navbar-responsive__nav">
               <li class="navbar-responsive__link after-transform"><a href="#sobre-mi">Sobre mi</a></li>
               <li class="navbar-responsive__link after-transform"><a href="#skills">Skills</li>
-              <li class="navbar-responsive__link after-transform"><a href="#hobbies">Hobbies</a></li>
               <li class="navbar-responsive__link after-transform"><a class="menu_link" href="#formacion">Formación</a></li>
               <li class="navbar-responsive__link after-transform"><a class="menu_link" href="#proyectos">Proyectos</a></li>
+              <li class="navbar-responsive__link after-transform"><a class="menu_link" href="#contactame">Contactame</a></li>
             </ul>
           </div>
         </div>
