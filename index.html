@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script type="module" src="componentes/navbar.js"></script>
     <script type="module" src="componentes/responsive.js"></script>
     <title>Portafolio</title>
@@ -12,7 +15,111 @@
 </head>
 <body>
     <my-header class="MyHeader"></my-header>
+
+    <div class="bienvenida">
+        <h1 class="bienvenida-texto">Hola, mi nombre es Maria Centurión y soy desarrolladora web fullstack </h1>
+        <img src="imagenes/MariaCenturion.png" alt="foto-dev">
+    </div>
+
+    <section id="sobre-mi">
+        <h2>Sobre mi</h2>
+        <p>Tengo 29 años, soy de Buenos Aires-Argentina. Me encanta desarrollar paginas y aprender continuamente.
+            Soy una persona proactiva, que le gusta trabajar en equipo logrando grandes resultados aplicando inteligencia emocional y metodologias agiles en el proceso.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-parent">
+            <div class="skills-child">HTML</div>
+            <div class="skills-child">CSS</div>
+            <div class="skills-child">Bootstrap</div>
+            <div class="skills-child">JavaScript</div>
+            <div class="skills-child">Git</div>
+            <div class="skills-child">GitHub</div>
+            <div class="skills-child">Python</div>
+            <div class="skills-child">SQLite</div>
+            <div class="skills-child">Linux</div>
+        </div>
+    </section>
+
+    <section id="formacion">
+        <h2>Formación académica</h2>
+        <div class="formacion-parent">
+            <div class="formacion-child">
+                <p>Fundación Telefónica Movistar</p>
+                <p>Curso Introducción a la Programación</p>
+                <p>2021</p>
+            </div>
+            <div class="formacion-child">
+                <p>Universidad de Buenos Aires</p>
+                <p>Diplomatura Desarrollo de Software Web, cursado en el CUDI de La Matanza</p>
+                <p>2021 - 2022</p>
+            </div>
+            <div class="formacion-child">
+                <p>Programa Codo a Codo</p>
+                <p>Curso Testing</p>
+                <p>2022</p>
+            </div>
+            <div class="formacion-child">
+                <p>Oracle Next Education</p>
+                <p>Curso Desarrollador web FullStack Java</p>
+                <p>2022</p>
+            </div>
+        </div>
+    </section>
     
+    <section id="proyectos">
+        <h2>Mis proyectos</h2>
+        <div class="proyectos-parent">
+            <div class="proyectos-child">
+                <p>Blog</p>
+                <p>Blog realizado para la Diplomatura con HTML y CSS</p>
+                <div class="proyectos-link">
+                    <a href="https://github.com/centurion-maria/ghibli-blog"><img src="imagenes/github_vector.png" alt="Ver codigo"></a>
+                    <a href="https://centurion-maria.github.io/ghibli-blog/index.html"><img src="imagenes/mundo_vector.png" alt="Ir al sitio"></a>
+                </div>
+            </div>
+            <div class="proyectos-child">
+                <p>Encriptador de texto</p>
+                <p>Challenge codificador para Alura Oracle Next Education</p>
+                <div class="proyectos-link">
+                    <a href="https://github.com/centurion-maria/Encriptador-de-texto.github.io"><img src="imagenes/github_vector.png" alt="Ver codigo"></a>
+                    <a href="https://centurion-maria.github.io/Encriptador-de-texto.github.io/"><img src="imagenes/mundo_vector.png" alt="Ir al sitio"></a>
+                </div>
+            </div>
+            <div class="proyectos-child">
+                <p>PetShop "Planeta Mascotas" </p>
+                <p>Front End del proyecto final para la Diplomatura con JavaScript</p>
+                <div class="proyectos-link">
+                    <a href="https://github.com/centurion-maria/Proyecto_final_CUDI"><img src="imagenes/github_vector.png" alt="Ver codigo"></a>
+                    <a href="https://centurion-maria.github.io/Proyecto_final_CUDI/"><img src="imagenes/mundo_vector.png" alt="Ir al sitio"></a>
+                </div>
+            </div>
+            <div class="proyectos-child">
+                <p>Back End del proyecto final para la Diplomatura con Python y SQLite</p>
+                <div>
+                    <a href="https://github.com/centurion-maria/Proyecto_CUDI_Backend"><img src="imagenes/github_vector.png" alt="Ver codigo"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contactame">
+        <h2>Contactame</h2>
+        <div class="contactame-parent">
+            <div class="contactame-child">
+                <a href="mailto:centurionmalena94@gmail.com"><img src="imagenes/gmail_vector.png" alt=""></a>
+            </div>
+            <div class="contactame-child">
+                <a href="https://www.linkedin.com/in/mariacenturion1994/"><img src="imagenes/linkedin_vector.png" alt=""></a>
+            </div>
+            <div class="contactame-child">
+                <a href="https://github.com/centurion-maria"><img src="imagenes/github_vector.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="js/jQuery.js"></script>
 </body>
-</html>
