@@ -45,8 +45,17 @@ html {
 }
 
 .contenedor {
-	padding: 20px;
+	padding: 50px 20px 20px;
 }
+
+.bienvenida-principal {
+	padding-top: 50px;
+}
+
+#sobre-mi {
+	margin: 25px 25px 50px;
+}
+
 .bienvenida-texto {
 	font-style: normal;
 	font-weight: 700;
@@ -63,8 +72,34 @@ html {
 	display: flex;
 	flex-direction: row;
 }
-
 .skills-child {
+	padding-top: 20px;
 	display: flex;
 	flex-direction: column;
+}
+
+.formacion-parent {
+	padding-top: 20px;
+}
+.formacion-child {
+	padding-top: 20px;
+}
+.foto-formacion {
+	width: 268px;
+	height: 286px;
+}
+.formacion-titulo {
+	margin-top: 10px;
+}
+
+
+.card {
+	margin: auto;
+	max-width: fit-content;
+}
+.proyectos-parent {
+	padding-top: 20px;
+}
+.proyectos-child {
+	padding-top: 20px;
 }

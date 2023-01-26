@@ -18,7 +18,7 @@
 
     <main class="container-fluid">
         <div class="container-fluid text-center contenedor">
-            <div class="row">
+            <div class="row bienvenida-principal">
                 <div class="col-8">
                     <h1 class="bienvenida-texto">Hola, mi nombre es Maria Centurión y soy desarrolladora web fullstack </h1>
                 </div>
@@ -28,15 +28,17 @@
             </div>
         </div>
     
-        <section id="sobre-mi" class="container-fluid contenedor">
-            <h2>Sobre mi</h2>
-            <p>Tengo 29 años, soy de Buenos Aires-Argentina. Me encanta desarrollar paginas y aprender continuamente.
-                Soy una persona proactiva, que le gusta trabajar en equipo logrando grandes resultados aplicando inteligencia emocional y metodologias agiles en el proceso.
-            </p>
+        <section id="sobre-mi" class="contenedor">
+            <div class="row">
+                <h2>Sobre mi</h2>
+                <p>Tengo 29 años, soy de Buenos Aires-Argentina. Me encanta desarrollar paginas y aprender continuamente.
+                    Soy una persona proactiva, que le gusta trabajar en equipo logrando grandes resultados aplicando inteligencia emocional y metodologias agiles en el proceso.
+                </p>
+            </div>
         </section>
     
         <section id="skills" class="container-fluid contenedor">
-            <h2>Skills</h2>
+            <h2 class="text-center">Skills</h2>
             <div class="skills-parent text-center">
                 <div class="skills-child col">
                     <div class="organizador">
@@ -114,25 +116,29 @@
         </section>
     
         <section id="formacion" class="container-fluid contenedor">
-            <h2>Formación académica</h2>
-            <div class="row formacion-parent">
-                <div class="formacion-child">
-                    <p>Fundación Telefónica Movistar</p>
+            <h2 class="text-center">Formación académica</h2>
+            <div class="row formacion-parent text-center">
+                <div class="formacion-child col">
+                    <img src="imagenes/formacion1.jpg" alt="fundacion-movistar" class="foto-formacion">
+                    <p class="formacion-titulo"><strong><u>Fundación Telefónica Movistar</u></strong></p>
                     <p>Curso Introducción a la Programación</p>
                     <p>2021</p>
                 </div>
-                <div class="formacion-child">
-                    <p>Universidad de Buenos Aires</p>
-                    <p>Diplomatura Desarrollo de Software Web, cursado en el CUDI de La Matanza</p>
+                <div class="formacion-child col">
+                    <img src="imagenes/formacion2.jpg" alt="fundacion-movistar" class="foto-formacion">
+                    <p class="formacion-titulo"><strong><u>Universidad de Buenos Aires</u></strong></p>
+                    <p>Diplomatura Desarrollo de Software Web <br> cursado en el CUDI de La Matanza</p>
                     <p>2021 - 2022</p>
                 </div>
-                <div class="formacion-child">
-                    <p>Programa Codo a Codo</p>
+                <div class="formacion-child col">
+                    <img src="imagenes/formacion3.jpg" alt="fundacion-movistar" class="foto-formacion">
+                    <p class="formacion-titulo"><strong><u>Programa Codo a Codo</u></strong></p>
                     <p>Curso Testing</p>
                     <p>2022</p>
                 </div>
-                <div class="formacion-child">
-                    <p>Oracle Next Education</p>
+                <div class="formacion-child col">
+                    <img src="imagenes/formacion4.png" alt="fundacion-movistar" class="foto-formacion">
+                    <p class="formacion-titulo"><strong><u>Oracle Next Education</u></strong></p>
                     <p>Curso Desarrollador web FullStack Java</p>
                     <p>2022</p>
                 </div>
@@ -140,49 +146,75 @@
         </section>
         
         <section id="proyectos" class="container-fluid contenedor">
-            <h2>Mis proyectos</h2>
-            <div class="proyectos-parent">
-                <div class="proyectos-child">
-                    <p>Blog</p>
-                    <p>Blog realizado para la Diplomatura</p>
-                    <p>
-                        Frameworks: Bootstrap <br>
-                        Control de versiones: Git <br>
-                    </p>
-                    <div class="proyectos-link">
-                        <a href="https://github.com/centurion-maria/ghibli-blog"><img src="imagenes/github_vector.png" alt="Ver codigo"></a>
-                        <a href="https://centurion-maria.github.io/ghibli-blog/index.html"><img src="imagenes/mundo_vector.png" alt="Ir al sitio"></a>
+            <h2 class="text-center">Mis proyectos</h2>
+            <div class="proyectos-parent row">
+                <div class="col text-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagenes/proyectos1.png" class="card-img-top" alt="blog">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog</h5>
+                            <p class="card-text">Blog realizado para la Diplomatura</p>
+                            <p class="card-text">
+                                Frameworks: Bootstrap <br>
+                                Control de versiones: Git <br>
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/centurion-maria/ghibli-blog"><img src="imagenes/github_vector.png" alt="Ver codigo"></a>
+                                <a href="https://centurion-maria.github.io/ghibli-blog/index.html"><img src="imagenes/mundo_vector.png" alt="Ir al sitio"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="proyectos-child">
-                    <p>Encriptador de texto</p>
-                    <p>Challenge codificador para Alura Oracle Next Education</p>
-                    <div class="proyectos-link">
-                        <a href="https://github.com/centurion-maria/Encriptador-de-texto.github.io"><img src="imagenes/github_vector.png" alt="Ver codigo"></a>
-                        <a href="https://centurion-maria.github.io/Encriptador-de-texto.github.io/"><img src="imagenes/mundo_vector.png" alt="Ir al sitio"></a>
+                <div class="col text-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagenes/proyectos2.png" class="card-img-top" alt="encriptador">
+                        <div class="card-body">
+                            <h5 class="card-title">Encriptador de texto</h5>
+                            <p class="card-text">Challenge codificador para Alura Oracle Next Education</p>
+                            <p class="card-text">
+                                Control de versiones: Git
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/centurion-maria/Encriptador-de-texto.github.io"><img src="imagenes/github_vector.png" alt="Ver codigo"></a>
+                                <a href="https://centurion-maria.github.io/Encriptador-de-texto.github.io/"><img src="imagenes/mundo_vector.png" alt="Ir al sitio"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="proyectos-child">
-                    <p>PetShop "Planeta Mascotas" </p>
-                    <p>Front End del proyecto final para la Diplomatura realizado en grupo</p>
-                    <p> Lenguajes: JavaScript <br>
-                        Frameworks: jQuery, Axios <br>
-                        Control de versiones: Git <br>
-                    </p>
-                    <div class="proyectos-link">
-                        <a href="https://github.com/centurion-maria/Proyecto_final_CUDI"><img src="imagenes/github_vector.png" alt="Ver codigo"></a>
-                        <a href="https://centurion-maria.github.io/Proyecto_final_CUDI/"><img src="imagenes/mundo_vector.png" alt="Ir al sitio"></a>
+                <div class="col text-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagenes/proyectos3.png" class="card-img-top" alt="petshop">
+                        <div class="card-body">
+                            <h5 class="card-title">PetShop "Planeta Mascotas"</h5>
+                            <p class="card-text">Front End del proyecto final para la Diplomatura realizado en grupo</p>
+                            <p class="card-text">
+                                Lenguajes: JavaScript <br>
+                                Frameworks: jQuery, Axios <br>
+                                Control de versiones: Git
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/centurion-maria/Proyecto_final_CUDI"><img src="imagenes/github_vector.png" alt="Ver codigo"></a>
+                                <a href="https://centurion-maria.github.io/Proyecto_final_CUDI/"><img src="imagenes/mundo_vector.png" alt="Ir al sitio"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="proyectos-child">
-                    <p>Back End del proyecto final para la Diplomatura realizado en grupo</p>
-                    <p> Lenguajes: Python <br>
-                        Frameworks: Flask <br>
-                        Base de datos: SQLite <br>
-                        Control de versiones: Git <br>
-                    </p>
-                    <div>
-                        <a href="https://github.com/centurion-maria/Proyecto_CUDI_Backend"><img src="imagenes/github_vector.png" alt="Ver codigo"></a>
+                <div class="col text-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagenes/proyectos4.jpg" class="card-img-top" alt="petshop">
+                        <div class="card-body">
+                            <h5 class="card-title">PetShop "Planeta Mascotas"</h5>
+                            <p class="card-text">Back End del proyecto final para la Diplomatura realizado en grupo</p>
+                            <p class="card-text">
+                                Lenguajes: Python <br>
+                                Frameworks: Flask <br>
+                                Base de datos: SQLite <br>
+                                Control de versiones: Git <br>
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/centurion-maria/Proyecto_CUDI_Backend"><img src="imagenes/github_vector.png" alt="Ver codigo"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -204,7 +236,7 @@
         </section>
     </main>
     
-
+    <my-footer class="MyFooter"></my-footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="js/jQuery.js"></script>
 </body>
