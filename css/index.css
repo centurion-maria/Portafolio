@@ -27,7 +27,7 @@
 }
 
 body {
-    background-image: url("/imagenes/fondo.jpg");
+    background-image: url("../imagenes/fondo.jpg");
     background-color: rgb(187, 112, 112);
 	font-size: 1rem;
 	font-weight: 400;
